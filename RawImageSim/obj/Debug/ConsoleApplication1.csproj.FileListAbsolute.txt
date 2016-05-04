@@ -1,0 +1,6 @@
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\bin\Debug\RawImageSim.exe.config
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\bin\Debug\RawImageSim.exe
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\bin\Debug\RawImageSim.pdb
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\obj\Debug\RawImageSim.exe
+C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\ConsoleApplication1\ConsoleApplication1\obj\Debug\RawImageSim.pdb
