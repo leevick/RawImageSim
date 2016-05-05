@@ -37,12 +37,12 @@ namespace RawImageSim
                     for (int k = 0; k < 160; k++)
                     {
                         
-                        b[2 * 2048 * k + 2 * i] = 0;
+                        b[2 * 2048 * k + 2 * i+1] = 0;
                         switch (k%3)
                         {
-                            case 0: b[2 * 2048 * k + 2 * i + 1] = bmp.GetPixel(i % img.Width, j).R;break;
-                            case 1: b[2 * 2048 * k + 2 * i + 1] = bmp.GetPixel(i % img.Width, j).G; break;
-                            case 2: b[2 * 2048 * k + 2 * i + 1] = bmp.GetPixel(i % img.Width, j).B; break;
+                            case 0: b[2 * 2048 * k + 2 * i + 0] = bmp.GetPixel(i % img.Width, j).R;break;
+                            case 1: b[2 * 2048 * k + 2 * i + 0] = bmp.GetPixel(i % img.Width, j).G; break;
+                            case 2: b[2 * 2048 * k + 2 * i + 0] = bmp.GetPixel(i % img.Width, j).B; break;
                             default:break;
                         }
                     }
