@@ -13,6 +13,8 @@ namespace RawImageSim
     {
         static void Main(string[] args)
         {
+            args = new string[1];
+            args[0] = "D://Project//data//lena.jpg";
 
             Image img = Image.FromFile(args[0]);
             if (args[0] == null)
@@ -28,7 +30,6 @@ namespace RawImageSim
             {
                
                 FileStream fs = new FileStream(j.ToString() + ".raw", FileMode.Create);
-                StreamWriter sw = new StreamWriter(fs);
                 byte[] b = new byte[2048 * 160 * 2];
                 Console.WriteLine("Output file:" + j.ToString() + ".raw");
                 for (int i = 0; i < 2048; i++)
@@ -48,10 +49,8 @@ namespace RawImageSim
                     }
                 }
 
+                fs.Write(b, 0, 2048 * 160 * 2);
 
-                string s = Encoding.ASCII.GetString(b);
-                sw.Write(s);
-                sw.Close();
                 fs.Close();
 
             }

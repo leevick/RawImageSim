@@ -18,4 +18,3 @@ C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\RawImageSim\obj\Debug\RawImageS
 C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\RawImageSim\obj\Debug\RawImageSim.pdb
 C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\RawImageSim\bin\Debug\RawImageSim.exe
 C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\RawImageSim\bin\Debug\RawImageSim.pdb
-C:\Users\Victor\OneDrive\Code\CSharp\RawImageSim\RawImageSim\obj\Debug\RawImageSim.csprojResolveAssemblyReference.cache
