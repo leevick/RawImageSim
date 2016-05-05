@@ -21,7 +21,7 @@ namespace RawImageSim
                 Console.ReadKey();
             }
             Bitmap bmp = new Bitmap(img);
-            Random rdm = new Random();
+            //Random rdm = new Random();
 
             
             for (int j = 0; j < img.Height; j++)
@@ -38,7 +38,7 @@ namespace RawImageSim
                     {
                         
                         b[2 * 2048 * k + 2 * i] = 0;
-                        switch (rdm.Next(0, 2))
+                        switch (k%3)
                         {
                             case 0: b[2 * 2048 * k + 2 * i + 1] = bmp.GetPixel(i % img.Width, j).R;break;
                             case 1: b[2 * 2048 * k + 2 * i + 1] = bmp.GetPixel(i % img.Width, j).G; break;
